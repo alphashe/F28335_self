@@ -31,6 +31,7 @@ void main(void){
 	IFR = 0x0000;   //clear all interrupt flag
 	InitPieVectTable();
 
+	//sdf
 	TIM0_Init(150-1, 700000-1);    //150MHz 150 divide ->1uS, count 700*1000  ->700mS
 	DELAY_US(100);
     LED_Init();
