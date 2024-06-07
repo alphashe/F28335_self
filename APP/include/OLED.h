@@ -30,7 +30,7 @@
 
 #define OLED_CMD    0 // write command
 #define OLED_DATA   1 //write data
-#define IIC_Delay   DELAY_US(2)
+#define IIC_Delay   DELAY_US(0)
 
 void OLED_Init(void);
 void OLED_WR_Byte(Uint16 dat,Uint16 mode);
