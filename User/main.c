@@ -68,9 +68,10 @@ void main(void){
 	    OLED_ShowInt(0, 40, realtime, 1);
 	    OLED_Refresh_fix(0, 127, 5);
 	   fx++;
-	   // if(fx==500000){
-	   //     LED4_TOGGLE;
-	   // }
+	    if(fx==500000){
+	        LED4_TOGGLE;
+	    }
+
 	    if(fx==9){
 
 	        fx=0;
