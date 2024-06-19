@@ -73,7 +73,7 @@ void main(void){
 	    }
 
 	    if(fx==9){
-
+			fx = 1;
 	        fx=0;
 	    }
 	}
